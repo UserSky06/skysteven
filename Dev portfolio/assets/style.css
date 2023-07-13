@@ -1,0 +1,187 @@
+body {
+  background-color:rgb(109, 8, 109);
+  color: white;
+  font-family: Arial;
+
+  
+  }
+  .title {
+  font-size: 60px;
+  font-weight: bold;
+  font-weight: bold;
+  background-color: rgb(109, 8, 109);
+  text-shadow: 5px 5px 5px rgba(10, 9, 9, 0.5);
+  animation-name: titleAnimation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes titleAnimation {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+  
+  }
+  .move-icon {
+  height: 50px;
+  border-radius: 50%;
+  size-adjust: 20%;
+  background-color: blueviolet;
+  }
+  .move-button2{
+        background-color: black;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 0%;
+      
+        border-radius: 30%;
+        height: 100px;
+        min-height: 100%;
+
+        animation: divAnimation 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes divAnimation {
+          
+          0% {
+            color: red;
+          }
+          50% {
+            color: blue;
+          }
+          100% {
+            color: green;
+          }
+          0%
+          } 
+          @keyframes slideInAnimation {
+            0% {
+
+            transform: translateX(-100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+
+          .move-button {
+          background-color: rgb(158, 100, 158);
+          border: 3px solid white;
+          width: 120px;
+          height: 120px;
+          border-radius: 60px;
+          cursor: grab;
+          animation: slideInAnimation 1s forwards;
+        }
+
+        @keyframes slideInAnimation {
+          0% {
+            transform: translateX(-100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+
+          }
+
+          .move-button:hover{
+          color: grey;
+          text-decoration: underline;
+          text-underline-offset: 1rem;
+          text-decoration-color: rgb(181, 181, 181);
+          }
+          
+          .result{
+          font-size: 25px;
+          font-weight: bold;
+          margin-top: 50px;
+          }
+          .score {
+          margin-top:60px;
+          }
+          .reset-score-button {
+          background-color: white;
+          border: 50px;;
+          font-size: 15px;
+          padding: 8px 15px;
+          cursor: pointer;
+          border-radius: 10px
+         
+
+          }body {
+                  background-color:rgb(109, 8, 109);
+                  color: white;
+                  font-family: Arial;
+
+                  
+                  }
+                  .title {
+                  font-size: 100px;
+                  font-weight: bold;
+                  }
+                  .move-icon {
+                  height: 50px;
+                  border-radius: 30%;
+                  padding-bottom: 10px;
+                  padding-top: 10px;
+                  size-adjust: 20%;
+                  background-color: rgb(77, 13, 138);
+                  }
+                  .move-button2{
+                        background-color: black;
+                        padding-top: 5%;
+                        padding-right: 5%;
+                        padding-left: 5%;
+                        padding-bottom: 5%;
+                        position: relative;
+                        border-radius: 30%;
+                        height: 100px;
+                        min-height: 100%;
+                        width: 500px;
+                        height: 300px;
+                  }
+
+                  .move-button {
+                  background-color: rgb(158, 100, 158);
+                  border: 3px solid white;
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 60px;
+                  cursor: grab;
+                  }
+
+                  .move-button:hover{
+                  color: grey;
+                  text-decoration: underline;
+                  text-underline-offset: 1rem;
+                  text-decoration-color: rgb(181, 181, 181);
+                  }
+                  
+                  .result{
+                  font-size: 25px;
+                  font-weight: bold;
+                  margin-top: 50px;
+                  }
+                  .score {
+                  margin-top:60px;
+                  }
+                  .reset-score-button {
+                  background-color: white;
+                  border: none;
+                  font-size: 15px;
+                  padding: 8px 15px;
+                  cursor: pointer;
+                  }
